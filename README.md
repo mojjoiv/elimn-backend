@@ -10,6 +10,9 @@
    ```bash
    psql -h localhost -U dev -d appdb -f migrations/001_init_schema.sql
    ```
+   ```bash
+      psql -h localhost -U dev -d appdb -f migrations/002_add_payments.sql
+   ```
 4. Start server:
    ```bash
    npm run dev
